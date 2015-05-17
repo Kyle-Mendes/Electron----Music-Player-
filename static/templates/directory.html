@@ -1,0 +1,17 @@
+<ul class="directory">
+	<li>
+		<a href="#"
+			class="directory"
+			ng-click="parentDirectory()">
+			Up a directory.
+		</a>
+	</li>
+	<li ng-repeat="item in directoryStructure | orderBy:['type', 'name']">
+		<a href="#" 
+			class="{{item.type}}" 
+			ng-click="interpretClick(item.name)">
+				{{item.name}} | {{item.type}}
+		</a>
+	</li>
+</ul>
+
