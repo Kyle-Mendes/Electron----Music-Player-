@@ -1,28 +1,14 @@
-# animalcrossing
+# Electron Music-Player
 
-> My unreal app
-
-
-## Dev
-
+To run:
 ```
-$ npm install
-```
-
-### Run
-
-```
-$ npm start
-```
-
-### Build
-
-```
-$ npm run build
+cd static
+npm install
+electron app.js
 ```
 
 
 ## License
 
 MIT © [Kyle Mendes](http://kyle.pink)
-# Electron----Music-Player-
+
